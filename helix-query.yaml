@@ -2,7 +2,7 @@ version: 1
 indices:
   mysite:
     include:
-      - /documents/**
+      - /**
     exclude:
       - /documents/snippets/**
     target: /query-index.json
