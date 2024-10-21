@@ -4,7 +4,7 @@ indices:
     include:
       - /**
     exclude:
-      - /documents/snippets/**
+      - /**/default
     target: /query-index.json
   enrichment:
     target: /enrichment/enrichment.json
